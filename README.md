@@ -1,0 +1,2 @@
+# ViewManagementPermissions
+View Management Permissions
