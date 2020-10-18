@@ -48,5 +48,5 @@ accessOfficer.ignoreChange(view)
 This ignore other untracked changes from all module in Android projects. 
 
 
-#Sum up.
+#### Sum up.
 This managment fix multimodule-archicture in application and adding implement of "import" control for view changes.
