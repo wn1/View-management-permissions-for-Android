@@ -34,9 +34,8 @@ class MyFragment: Fragment() {
 
 ```
 
-After commitChange all critical changes (for text, onClick events, background, foreground, layout variants, hints) for view stop programm and track bug for developer security callback.
-If it response, need update code interfaces for used moduls.
-
+After fixing the changes, all critical changes (for text, onClick events, background, foreground, layout options, hints) for viewing will be monitored by the AccessOfficer class and subsystem modules, which will initiate a forced program shutdown and send the developer detailed error data with a report on unplanned changes.
+Using this reverse management, you will need to update the interface code for the modules you are using, or reconsider whether to use them.
 
 
 
@@ -46,6 +45,8 @@ Code example prototype for ignore changes for selected view:
 accessOfficer.ignoreChange(view)
 
 ```
-
 This ignore other untracked changes from all module in Android projects. 
-This fix multimodule-archicture in application and adding implement of "import" control for view changes.
+
+
+#Sum up.
+This managment fix multimodule-archicture in application and adding implement of "import" control for view changes.
