@@ -20,13 +20,14 @@ class MyFragment: Fragment() {
   overrride fun onActivityCreated() {
 
     // ...
+    accessOfficer.manageView(view) // Set management task for view. Only one access officer can manage access to views with all subviews (view.childs)
 
-    accessOfficer.beginChange(view)
+    accessOfficer.beginChange(view) // Begin changes for view
 
     //Change any UI paramenter on this UI
     // ...
 
-    accessOfficer.commitChange(view)
+    accessOfficer.commitChange(view) // End changes for view
     
   }
 
